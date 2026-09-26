@@ -1,8 +1,6 @@
 package com.example.vvce.calculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import com.*;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class AppTest {
@@ -15,6 +13,6 @@ public class AppTest {
 
     @Test
     public void testSubtract() {
-        assertEquals(15, app.subtract(20, 5));
+        assertEquals(15, app.sub(20, 5));
     }
 }
